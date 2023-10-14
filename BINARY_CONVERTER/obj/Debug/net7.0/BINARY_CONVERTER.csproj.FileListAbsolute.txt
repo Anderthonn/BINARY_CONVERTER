@@ -1,0 +1,15 @@
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\bin\Debug\net7.0\BINARY_CONVERTER.exe
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\bin\Debug\net7.0\BINARY_CONVERTER.deps.json
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\bin\Debug\net7.0\BINARY_CONVERTER.runtimeconfig.json
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\bin\Debug\net7.0\BINARY_CONVERTER.dll
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\bin\Debug\net7.0\BINARY_CONVERTER.pdb
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.csproj.AssemblyReference.cache
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.AssemblyInfoInputs.cache
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.AssemblyInfo.cs
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.csproj.CoreCompileInputs.cache
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.dll
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\refint\BINARY_CONVERTER.dll
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.pdb
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\BINARY_CONVERTER.genruntimeconfig.cache
+C:\Users\amelobat\OneDrive - NTT DATA EMEAL\Documentos\ALB\Projetos - (Pessoais)\BINARY_CONVERTER\BINARY_CONVERTER\obj\Debug\net7.0\ref\BINARY_CONVERTER.dll
