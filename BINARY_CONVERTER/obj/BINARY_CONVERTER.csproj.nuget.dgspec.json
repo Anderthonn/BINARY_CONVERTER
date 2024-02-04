@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anderthonn Batista\\Downloads\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj": {}
+    "C:\\Users\\amelobat\\OneDrive - NTT DATA EMEAL\\Documentos\\ALB\\Projetos - (Pessoais)\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anderthonn Batista\\Downloads\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj": {
+    "C:\\Users\\amelobat\\OneDrive - NTT DATA EMEAL\\Documentos\\ALB\\Projetos - (Pessoais)\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anderthonn Batista\\Downloads\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj",
+        "projectUniqueName": "C:\\Users\\amelobat\\OneDrive - NTT DATA EMEAL\\Documentos\\ALB\\Projetos - (Pessoais)\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj",
         "projectName": "BINARY_CONVERTER",
-        "projectPath": "C:\\Users\\Anderthonn Batista\\Downloads\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj",
-        "packagesPath": "C:\\Users\\Anderthonn Batista\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anderthonn Batista\\Downloads\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER\\obj\\",
+        "projectPath": "C:\\Users\\amelobat\\OneDrive - NTT DATA EMEAL\\Documentos\\ALB\\Projetos - (Pessoais)\\BINARY_CONVERTER\\BINARY_CONVERTER\\BINARY_CONVERTER.csproj",
+        "packagesPath": "C:\\Users\\amelobat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amelobat\\OneDrive - NTT DATA EMEAL\\Documentos\\ALB\\Projetos - (Pessoais)\\BINARY_CONVERTER\\BINARY_CONVERTER\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anderthonn Batista\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amelobat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -132,281 +132,304 @@ static void FileTranslation()
 //Translation method.
 static string Traslation(string textToConvert)
 {
-    int cont = 1;
-    string convertedText = "";
-
-    for (int i = 0; i < textToConvert.Length; i++)
+    try
     {
-        if (textToConvert.Substring(i, cont) == BinaryAlphabet.A.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.A;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.a.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.a;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.B.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.B;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.b.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.b;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.C.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.C;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.c.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.c;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.D.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.D;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.d.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.d;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.E.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.E;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.e.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.e;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.F.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.F;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.f.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.f;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.G.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.G;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.g.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.g;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.H.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.H;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.h.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.h;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.I.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.I;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.i.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.i;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.J.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.J;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.j.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.j;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.K.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.K;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.k.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.k;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.L.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.L;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.l.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.l;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.M.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.m;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.m.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.m;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.N.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.N;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.n.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.n;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.O.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.O;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.o.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.o;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.P.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.P;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.p.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.p;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.Q.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.Q;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.q.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.q;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.R.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.R;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.r.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.r;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.S.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.S;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.s.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.s;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.T.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.T;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.t.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.t;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.U.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.U;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.u.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.u;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.V.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.V;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.v.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.v;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.W.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.W;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.w.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.w;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.X.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.X;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.x.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.x;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.Y.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.Y;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.y.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.y;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.Z.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.Z;
-        }
-        else if (textToConvert.Substring(i, cont) == BinaryAlphabet.z.ToString())
-        {
-            convertedText += " " + (int)BinaryAlphabet.z;
-        }
-        else if (textToConvert.Substring(i, cont) == " ")
-        {
-            convertedText += " 00100000 ";
-        }
-    }
+        int cont = 1;
+        StringBuilder convertedText = new StringBuilder();
 
-    return convertedText.Remove(0, 1);
+        for (int i = 0; i < textToConvert.Length; i++)
+        {
+            char currentChar = textToConvert[i];
+
+            switch (currentChar)
+            {
+                case 'A':
+                    convertedText.Append(" " + (int)BinaryAlphabet.A);
+                    break;
+                case 'a':
+                    convertedText.Append(" " + (int)BinaryAlphabet.a);
+                    break;
+                case 'B':
+                    convertedText.Append(" " + (int)BinaryAlphabet.B);
+                    break;
+                case 'b':
+                    convertedText.Append(" " + (int)BinaryAlphabet.b);
+                    break;
+                case 'C':
+                    convertedText.Append(" " + (int)BinaryAlphabet.C);
+                    break;
+                case 'c':
+                    convertedText.Append(" " + (int)BinaryAlphabet.c);
+                    break;
+                case 'D':
+                    convertedText.Append(" " + (int)BinaryAlphabet.D);
+                    break;
+                case 'd':
+                    convertedText.Append(" " + (int)BinaryAlphabet.d);
+                    break;
+                case 'E':
+                    convertedText.Append(" " + (int)BinaryAlphabet.E);
+                    break;
+                case 'e':
+                    convertedText.Append(" " + (int)BinaryAlphabet.e);
+                    break;
+                case 'F':
+                    convertedText.Append(" " + (int)BinaryAlphabet.F);
+                    break;
+                case 'f':
+                    convertedText.Append(" " + (int)BinaryAlphabet.f);
+                    break;
+                case 'G':
+                    convertedText.Append(" " + (int)BinaryAlphabet.G);
+                    break;
+                case 'g':
+                    convertedText.Append(" " + (int)BinaryAlphabet.g);
+                    break;
+                case 'H':
+                    convertedText.Append(" " + (int)BinaryAlphabet.H);
+                    break;
+                case 'h':
+                    convertedText.Append(" " + (int)BinaryAlphabet.h);
+                    break;
+                case 'I':
+                    convertedText.Append(" " + (int)BinaryAlphabet.I);
+                    break;
+                case 'i':
+                    convertedText.Append(" " + (int)BinaryAlphabet.i);
+                    break;
+                case 'J':
+                    convertedText.Append(" " + (int)BinaryAlphabet.J);
+                    break;
+                case 'j':
+                    convertedText.Append(" " + (int)BinaryAlphabet.j);
+                    break;
+                case 'K':
+                    convertedText.Append(" " + (int)BinaryAlphabet.K);
+                    break;
+                case 'k':
+                    convertedText.Append(" " + (int)BinaryAlphabet.k);
+                    break;
+                case 'L':
+                    convertedText.Append(" " + (int)BinaryAlphabet.L);
+                    break;
+                case 'l':
+                    convertedText.Append(" " + (int)BinaryAlphabet.l);
+                    break;
+                case 'M':
+                    convertedText.Append(" " + (int)BinaryAlphabet.M);
+                    break;
+                case 'm':
+                    convertedText.Append(" " + (int)BinaryAlphabet.m);
+                    break;
+                case 'N':
+                    convertedText.Append(" " + (int)BinaryAlphabet.N);
+                    break;
+                case 'n':
+                    convertedText.Append(" " + (int)BinaryAlphabet.n);
+                    break;
+                case 'O':
+                    convertedText.Append(" " + (int)BinaryAlphabet.O);
+                    break;
+                case 'o':
+                    convertedText.Append(" " + (int)BinaryAlphabet.o);
+                    break;
+                case 'P':
+                    convertedText.Append(" " + (int)BinaryAlphabet.P);
+                    break;
+                case 'p':
+                    convertedText.Append(" " + (int)BinaryAlphabet.p);
+                    break;
+                case 'Q':
+                    convertedText.Append(" " + (int)BinaryAlphabet.Q);
+                    break;
+                case 'q':
+                    convertedText.Append(" " + (int)BinaryAlphabet.q);
+                    break;
+                case 'R':
+                    convertedText.Append(" " + (int)BinaryAlphabet.R);
+                    break;
+                case 'r':
+                    convertedText.Append(" " + (int)BinaryAlphabet.r);
+                    break;
+                case 'S':
+                    convertedText.Append(" " + (int)BinaryAlphabet.S);
+                    break;
+                case 's':
+                    convertedText.Append(" " + (int)BinaryAlphabet.s);
+                    break;
+                case 'T':
+                    convertedText.Append(" " + (int)BinaryAlphabet.T);
+                    break;
+                case 't':
+                    convertedText.Append(" " + (int)BinaryAlphabet.t);
+                    break;
+                case 'U':
+                    convertedText.Append(" " + (int)BinaryAlphabet.U);
+                    break;
+                case 'u':
+                    convertedText.Append(" " + (int)BinaryAlphabet.u);
+                    break;
+                case 'V':
+                    convertedText.Append(" " + (int)BinaryAlphabet.V);
+                    break;
+                case 'v':
+                    convertedText.Append(" " + (int)BinaryAlphabet.v);
+                    break;
+                case 'W':
+                    convertedText.Append(" " + (int)BinaryAlphabet.W);
+                    break;
+                case 'w':
+                    convertedText.Append(" " + (int)BinaryAlphabet.w);
+                    break;
+                case 'X':
+                    convertedText.Append(" " + (int)BinaryAlphabet.X);
+                    break;
+                case 'x':
+                    convertedText.Append(" " + (int)BinaryAlphabet.x);
+                    break;
+                case 'Y':
+                    convertedText.Append(" " + (int)BinaryAlphabet.Y);
+                    break;
+                case 'y':
+                    convertedText.Append(" " + (int)BinaryAlphabet.y);
+                    break;
+                case 'Z':
+                    convertedText.Append(" " + (int)BinaryAlphabet.Z);
+                    break;
+                case 'z':
+                    convertedText.Append(" " + (int)BinaryAlphabet.z);
+                    break;
+                case ' ':
+                    convertedText.Append(" 00100000 ");
+                    break;
+                case ':':
+                    convertedText.Append(" 00111010 ");
+                    break;
+                case ',':
+                    convertedText.Append(" 00101100 ");
+                    break;
+                case '?':
+                    convertedText.Append(" 00111111 ");
+                    break;
+                case '/':
+                    convertedText.Append(" 00101111 ");
+                    break;
+                case '°':
+                    convertedText.Append(" 11011111 ");
+                    break;
+                case '<':
+                    convertedText.Append(" 00111100 ");
+                    break;
+                case '>':
+                    convertedText.Append(" 00111110 ");
+                    break;
+                case '{':
+                    convertedText.Append(" 01111011 ");
+                    break;
+                case '[':
+                    convertedText.Append(" 01011011 ");
+                    break;
+                case 'ª':
+                    convertedText.Append(" 1011010 ");
+                    break;
+                case '}':
+                    convertedText.Append(" 01111101 ");
+                    break;
+                case ']':
+                    convertedText.Append(" 01011101 ");
+                    break;
+                case '=':
+                    convertedText.Append(" 00111101 ");
+                    break;
+                case '+':
+                    convertedText.Append(" 00101011 ");
+                    break;
+                case '_':
+                    convertedText.Append(" 01011111 ");
+                    break;
+                case '-':
+                    convertedText.Append(" 00101101 ");
+                    break;
+                case ')':
+                    convertedText.Append(" 00101001 ");
+                    break;
+                case '*':
+                    convertedText.Append(" 00101010 ");
+                    break;
+                case '&':
+                    convertedText.Append(" 00100110 ");
+                    break;
+                case '¨':
+                    convertedText.Append(" 11011100 ");
+                    break;
+                case '%':
+                    convertedText.Append(" 00100101 ");
+                    break;
+                case '$':
+                    convertedText.Append(" 00100100 ");
+                    break;
+                case '#':
+                    convertedText.Append(" 00100011 ");
+                    break;
+                case '@':
+                    convertedText.Append(" 01000000 ");
+                    break;
+                case '!':
+                    convertedText.Append(" 00100001 ");
+                    break;
+                case '|':
+                    convertedText.Append(" 01111101 ");
+                    break;
+                case '\\':
+                    convertedText.Append(" 01011100 ");
+                    break;
+                case '¿':
+                    convertedText.Append(" 00111111 ");
+                    break;
+                case '.':
+                    convertedText.Append(" 00101110 ");
+                    break;
+                default:
+                    convertedText.Append(" " + (int)currentChar);
+                    break;
+            }
+        }
+
+        return convertedText.ToString().TrimStart();
+    }
+    catch (Exception ex)
+    {
+        throw new Exception($"An error occurred during translation: {ex.Message}");
+    }
 }
 
 //Enum that relates the alphabetic value to the binary code.
 enum BinaryAlphabet
 {
-    A = 01000001,
-    a = 01100001,
-    B = 01000010,
-    b = 01100010,
-    C = 01000011,
-    c = 01100011,
-    D = 01000100,
-    d = 01100100,
-    E = 01000101,
-    e = 01100101,
-    F = 01000110,
-    f = 01100110,
-    G = 01000111,
-    g = 01100111,
-    H = 01001000,
-    h = 01101000,
-    I = 01001001,
-    i = 01101001,
-    J = 01001010,
-    j = 01101010,
-    K = 01001011,
-    k = 01101011,
-    L = 01001100,
-    l = 01101100,
-    M = 01001101,
-    m = 01101101,
-    N = 01001110,
-    n = 01101110,
-    O = 01001111,
-    o = 01101111,
-    P = 01010000,
-    p = 01110000,
-    Q = 01010001,
-    q = 01110001,
-    R = 01010010,
-    r = 01110010,
-    S = 01010011,
-    s = 01110011,
-    T = 01010100,
-    t = 01110100,
-    U = 01010101,
-    u = 01110101,
-    V = 01010110,
-    v = 01110110,
-    W = 01010111,
-    w = 01110111,
-    X = 01011000,
-    x = 01111000,
-    Y = 01011001,
-    y = 01111001,
-    Z = 01011010,
-    z = 01111010
+    A = 01000001, a = 01100001, B = 01000010, b = 01100010,
+    C = 01000011, c = 01100011, D = 01000100, d = 01100100,
+    E = 01000101, e = 01100101, F = 01000110, f = 01100110,
+    G = 01000111, g = 01100111, H = 01001000, h = 01101000,
+    I = 01001001, i = 01101001, J = 01001010, j = 01101010,
+    K = 01001011, k = 01101011, L = 01001100, l = 01101100,
+    M = 01001101, m = 01101101, N = 01001110, n = 01101110,
+    O = 01001111, o = 01101111, P = 01010000, p = 01110000,
+    Q = 01010001, q = 01110001, R = 01010010, r = 01110010,
+    S = 01010011, s = 01110011, T = 01010100, t = 01110100,
+    U = 01010101, u = 01110101, V = 01010110, v = 01110110,
+    W = 01010111, w = 01110111, X = 01011000, x = 01111000,
+    Y = 01011001, y = 01111001, Z = 01011010, z = 01111010,
+    Space = 00100000, Colon = 00111010, Comma = 00101100,
+    QuestionMark = 00111111, Slash = 00101111, Degree = 11011111,
+    LessThan = 00111100, GreaterThan = 00111110, CurlyBrace = 01111011,
+    SquareBracket = 01011011, FeminineOrdinalIndicator = 1011010,
+    ClosingCurlyBrace = 01111101, ClosingSquareBracket = 01011101,
+    Equals = 00111101, Plus = 00101011, Underscore = 01011111,
+    Hyphen = 00101101, ClosingParenthesis = 00101001,
+    Asterisk = 00101010, Ampersand = 00100110, Diaeresis = 11011100,
+    Percent = 00100101, Dollar = 00100100, Hash = 00100011,
+    At = 01000000, ExclamationMark = 00100001, SingleQuote = 00100111,
+    DoubleQuote = 00100010, VerticalBar = 01111101, Backslash = 01011100,
+    QuestionSlash = 00111111, AsteriskSlash = 00101010,
+    HyphenSlash = 00101101, PlusSlash = 00101011, Period = 00101110
 }
